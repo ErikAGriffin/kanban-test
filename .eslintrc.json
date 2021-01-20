@@ -1,6 +1,6 @@
 {
-  "extends": ["airbnb", "prettier", "prettier/react","plugin:json/recommended"],
-  "plugins": ["react", "react-hooks","import"],
+  "extends": ["airbnb", "prettier", "prettier/react", "plugin:json/recommended"],
+  "plugins": ["react", "react-hooks", "import"],
   "env": {
     "browser": true,
     "jest": true
@@ -8,6 +8,7 @@
   "rules": {
     "semi": ["error", "always"],
     "react/jsx-fragments": ["error", "syntax"],
+    "react/react-in-jsx-scope": "off",
     "import/imports-first": ["error", "absolute-first"],
     "import/newline-after-import": "error",
     "no-param-reassign": ["error", { "props": false }],
