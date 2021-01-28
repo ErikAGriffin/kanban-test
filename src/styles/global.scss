@@ -1,0 +1,55 @@
+@import '_variables';
+
+html {
+  box-sizing: border-box;
+  line-height: 1;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+html {
+  overflow: auto;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+  touch-action: manipulation;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+// ie11 fix
+main {
+  display: block;
+}
+
+// Remove browser input styles
+input[type='text'],
+input[type='tel'],
+input[type='url'],
+input[type='email'],
+input[type='submit'],
+select,
+textarea,
+option,
+select,
+button {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+// Remove input focus outline
+input:focus,
+select:focus,
+textarea:focus,
+option:focus,
+select:focus,
+button:focus {
+  outline: none;
+}
