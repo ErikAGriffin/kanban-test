@@ -1,0 +1,25 @@
+.Column {
+  background: white;
+  flex-grow: 3;
+  padding-bottom: 5px;
+  &:not(:last-of-type) {
+    margin-right: 25px;
+  }
+  h2 {
+    background: cyan;
+    font-size: 16px;
+    text-align: center;
+    margin: 0;
+  }
+  .addCard {
+    display: block;
+    margin: 0 auto;
+    margin-top: 12px;
+  }
+  .card {
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    padding: 6px;
+  }
+}
